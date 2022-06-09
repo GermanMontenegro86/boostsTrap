@@ -74,3 +74,50 @@
     margin-left: 15px;
     font-family: sans-serif;
 }
+
+.footer {  display: grid;
+    background-color: black;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "contacto organizaciones"
+      "contacto organizaciones";
+  }
+  
+  .contacto { grid-area: contacto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto li{
+    list-style: none;
+    font-size: 2em;
+}
+
+.contacto li:hover{
+    background-color: aqua;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.contacto p{
+    font-size: .8em;
+}
+
+  
+  .organizaciones { grid-area: organizaciones; 
+}
+
+.organizaciones li{
+    list-style: none;
+}
+
+.organizaciones a{
+    text-decoration: none;
+    font-size: .8em;
+}
+  
+.organizaciones p{
+    color: white;
+}
