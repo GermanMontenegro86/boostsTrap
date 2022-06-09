@@ -1,6 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
+}
+
+
+
+.nav {
+    background: linear-gradient(90deg, rgba(7, 247, 47, 1) 0%, rgba(79, 236, 10, 0.5662640056022409) 26%, rgba(20, 247, 16, 0.40940126050420167) 55%, rgba(49, 230, 12, 0.06206232492997199) 99%);
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbarSupportedContent a{
+    color: rgb(27, 72, 221);
+    font-family: sans-serif;
+   
+}
+
+.navbar-brand img {
+    width: 3vw;
 }
 
