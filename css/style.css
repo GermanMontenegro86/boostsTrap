@@ -40,8 +40,8 @@
 }
 
 .header img {
-    width: 25vw;
-    box-shadow: 1px 2px 2px 3px black;
+    width: 100vw;
+    
 }
 
 .header H1 {
@@ -120,4 +120,5 @@
   
 .organizaciones p{
     color: white;
+    font-size: 0.8em;
 }
