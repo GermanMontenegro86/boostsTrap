@@ -4,6 +4,10 @@
 
 }
 
+.body {
+    background-color: antiquewhite;
+}
+
 
 
 .nav {
@@ -18,32 +22,55 @@
     flex-direction: row;
 }
 
-#navbarSupportedContent a{
+#navbarSupportedContent a {
     color: rgb(27, 72, 221);
     font-family: sans-serif;
-   
+
 }
 
 .navbar-brand img {
     width: 3vw;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0.363);
+    background-color: rgba(240, 248, 255, 0.432);
 }
 
-
-.header img{
+.header img {
     width: 25vw;
     box-shadow: 1px 2px 2px 3px black;
 }
 
-.header H1{
+.header H1 {
     font-size: 6em;
     font-family: sans-serif;
     color: rgba(10, 157, 224, 0.712);
+
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .main h2{
+        margin-top: 20px;
+       text-align: center;
+    }
+
+.main img{
+    width: 20vw;
+  
+}
+
+.main p{
+    max-width: 850px;
+    margin-top: 10px;
+    font-size: 1.3em;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
