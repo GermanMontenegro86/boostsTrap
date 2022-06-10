@@ -37,39 +37,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(11,11,11,0.896796218487395) 42%, rgba(8,8,8,0.6699054621848739) 79%, rgba(0,0,0,0.5662640056022409) 99%);
+    background: linear-gradient(90deg, rgba(4, 4, 4, 1) 0%, rgba(11, 11, 11, 0.896796218487395) 42%, rgba(8, 8, 8, 0.6699054621848739) 79%, rgba(0, 0, 0, 0.5662640056022409) 99%);
 }
 
 .header img {
     width: 100vw;
-    
+
 }
 
-.header H1 {
+.header H2 {
     font-size: 6em;
     font-family: sans-serif;
     color: white;
 
 }
 
-.main{
+.info{
+    color: white;
+}
+
+.main {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-    .main h2{
-        margin-top: 20px;
-       text-align: center;
-       font-size: 3em;
-    }
-
-.main img{
-    width: 35vw;
-  
+.main h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
 }
 
-.main p{
+.main img {
+    width: 35vw;
+    
+
+}
+
+.oceano{
+    margin-bottom: 30px;
+}
+
+.main p {
     max-width: 1345px;
     margin-top: 10px;
     font-size: 1.5em;
@@ -77,50 +87,66 @@
     font-family: sans-serif;
 }
 
-.footer {  display: grid;
+.footer {
+    display: grid;
     background-color: rgba(0, 0, 0, 0.781);
     grid-auto-flow: row;
     grid-template-areas:
-      "contacto organizaciones"
-      "contacto organizaciones";
-  }
-  
-  .contacto { grid-area: contacto;
+        "contacto organizaciones"
+        "contacto organizaciones";
+}
+
+.contacto {
+    grid-area: contacto;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contacto li{
+.contacto li {
     list-style: none;
     font-size: 2em;
 }
 
-.contacto li:hover{
+.contacto li:hover {
     background-color: aqua;
     margin: 0 auto;
     border-radius: 10px;
 }
 
-.contacto p{
+.contacto p {
     font-size: .8em;
 }
 
-  
-  .organizaciones { grid-area: organizaciones; 
+
+.organizaciones {
+    grid-area: organizaciones;
 }
 
-.organizaciones li{
+.organizaciones li {
     list-style: none;
 }
 
-.organizaciones a{
+.organizaciones a {
     text-decoration: none;
     font-size: .8em;
 }
-  
-.organizaciones p{
+
+.organizaciones p {
     color: white;
     font-size: 0.8em;
+}
+
+.oce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.oce img{
+    width: 20vw;
 }
