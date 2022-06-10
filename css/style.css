@@ -29,6 +29,11 @@
 
 }
 
+#navbarSupportedContent a:hover {
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
 .navbar-brand img {
     width: 3vw;
 }
@@ -45,15 +50,17 @@
 
 }
 
-.header H2 {
+.header H1 {
     font-size: 6em;
     font-family: sans-serif;
     color: white;
 
 }
 
-.info{
+.info {
     color: white;
+    max-width: 1558px;
+    ;
 }
 
 .main {
@@ -71,11 +78,11 @@
 
 .main img {
     width: 35vw;
-    
+
 
 }
 
-.oceano{
+.oceano {
     margin-bottom: 30px;
 }
 
@@ -138,15 +145,25 @@
     font-size: 0.8em;
 }
 
-.oce{
+.oce {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
-    
+
 }
 
-.oce img{
+.oce img {
+    width: 20vw;
+}
+
+.animales {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.animales img {
     width: 20vw;
 }
