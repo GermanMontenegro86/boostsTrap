@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 
 }
 
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(240, 248, 255, 0.432);
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgba(11,11,11,0.896796218487395) 42%, rgba(8,8,8,0.6699054621848739) 79%, rgba(0,0,0,0.5662640056022409) 99%);
 }
 
 .header img {
@@ -47,7 +48,7 @@
 .header H1 {
     font-size: 6em;
     font-family: sans-serif;
-    color: rgba(10, 157, 224, 0.712);
+    color: white;
 
 }
 
@@ -60,23 +61,24 @@
     .main h2{
         margin-top: 20px;
        text-align: center;
+       font-size: 3em;
     }
 
 .main img{
-    width: 20vw;
+    width: 35vw;
   
 }
 
 .main p{
-    max-width: 850px;
+    max-width: 1345px;
     margin-top: 10px;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-left: 15px;
     font-family: sans-serif;
 }
 
 .footer {  display: grid;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.781);
     grid-auto-flow: row;
     grid-template-areas:
       "contacto organizaciones"
