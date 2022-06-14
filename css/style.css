@@ -170,54 +170,88 @@
 
 /* geleria */
 
-.geleria {  display: grid;
+.geleria {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-   grid-auto-rows: 300px;
-   padding: 20px;
-   gap: 20px;
-   background-color: black;
+    grid-auto-rows: 300px;
+    padding: 20px;
+    gap: 20px;
+    background-color: black;
     grid-template-areas:
-      "img1 img2 img3"
-      "img4 img5 img6"
-      "img7 img8 img9";
-  }
-  
-  .img1 { grid-area: img1; 
-    }
-  
-  .img2 { grid-area: img2; 
-    }
-  
-  .img3 { grid-area: img3; 
-    }
-  
-  .img4 { grid-area: img4; }
-  
-  .img5 { grid-area: img5; }
-  
-  .img6 { grid-area: img6; }
-  
-  .img7 { grid-area: img7; }
-  
-  .img8 { grid-area: img8; }
-  
-  .img9 { grid-area: img9; }
-  
-.geleria img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    
-    
+        "img1 img2 img3"
+        "img4 img5 img6"
+        "img7 img8 img9";
 }
 
-.gaH2 h2{
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.img7 {
+    grid-area: img7;
+}
+
+.img8 {
+    grid-area: img8;
+}
+
+.img9 {
+    grid-area: img9;
+}
+
+.geleria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.gaH2 h2 {
     font-size: 5em;
     text-align: center;
     margin-top: 60px;
-    color:white;
+    color: white;
     background: linear-gradient(90deg, rgba(4, 4, 4, 1) 0%, rgba(11, 11, 11, 0.896796218487395) 42%, rgba(8, 8, 8, 0.6699054621848739) 79%, rgba(0, 0, 0, 0.5662640056022409) 99%);
+
+}
+
+/* carrusel */
+
+.width {
+    width: 40vw;
+   
+}
+
+.carousel{
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
-  
+
+.fon{
+    background-color: black;
+}
